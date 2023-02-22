@@ -5,7 +5,7 @@ const Leftheader = () => {
     <div>
         <div className= 'h-20 flex    text-white'>
        <div className='flex items-center '>
-       <Link>Amazon Prime</Link>
+       <img src='./logoamazon.png' alt='Images'/>
         <div className='flex ml-8 space-x-4'>
          <Link className='border-b'> Anasayfa</Link>
          <Link> Tv Dizileri</Link>
