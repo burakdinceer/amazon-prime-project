@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Contine from './Continue/Contine'
+import Contine from '../Continue/Contine'
 import Leftheader from './LeftNav/Leftheader'
 import Rightheader from './RightNav/Rightheader'
-import Slider from './Slider/Slider'
+import Slider from '../Slider/Slider'
 
 
 const Header = () => {
