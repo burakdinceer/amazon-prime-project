@@ -5,8 +5,8 @@ const Leftheader = () => {
     <div>
         <div className= 'h-20 flex    text-white'>
        <div className='flex items-center '>
-       <img src='./logoamazon.png' alt='Images'/>
-        <div className='flex ml-8 space-x-4'>
+       <img className='h-20' src='./logoamazon.png' alt='Images'/>
+        <div className='hidden md:flex ml-8 space-x-4 text-sm lg:text-lg whitespace-nowrap'>
          <Link className='border-b'> Anasayfa</Link>
          <Link> Tv Dizileri</Link>
          <Link> Filmler</Link>

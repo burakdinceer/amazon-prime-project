@@ -2,8 +2,8 @@ import React from 'react'
 
 const Slider = () => {
   return (
-    <div>
-        <img src='./amazonslider.webp' alt='İmages'/>
+    <div className='h-52 md:h-80 lg:h-96'>
+        <img  className=' h-full w-full' src='./amazonslider.webp' alt='İmages'/>
     </div>
   )
 }
