@@ -4,8 +4,14 @@ module.exports = {
   theme: {
     extend: {
       spacing:{
-        '128' : '32rem'
+        '128' : '32rem',
+        '164' : '40rem'
+        
       },
+      backgroundImage:{
+        'mainBg': "url('./loginImage.jpg')"
+      }
+      
     },
   },
   plugins: [],
