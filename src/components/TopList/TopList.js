@@ -42,10 +42,10 @@ const TopList = () => {
          {
           movies.map((item,rank) => {
             if(rank <4){
-         return <div className="item p-3 group relative basis-1/2 lg:basis-1/4 ">
-                    <div>{item.rank}</div>
+         return <div className="item p-3 group relative basis-1/2 lg:basis-1/4  ">
+                    <div className='!text-white'>{item.rank}</div>
                     <div>                
-                     <img className="!w-2/3 h-28 " alt="Movie" src={item.thumbnail}/></div>
+                     <img className="!w-full h-28 " alt="Movie" src={item.thumbnail}/></div>
               </div>     
             }
             

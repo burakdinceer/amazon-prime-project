@@ -8,9 +8,7 @@ module.exports = {
         '164' : '40rem'
         
       },
-      backgroundImage:{
-        'mainBg': "url('./loginImage.jpg')"
-      }
+  
       
     },
   },
