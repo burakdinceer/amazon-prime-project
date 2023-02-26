@@ -6,7 +6,7 @@ import Rightheader from './RightNav/Rightheader'
 
 const Header = () => {
   return (
-   <div>
+   <div className='bg-new-bg'>
      <div className= ' container mx-auto font-bold flex items-center justify-between  ' >
      <div><Leftheader/></div>
      <div><Rightheader/></div>

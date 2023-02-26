@@ -8,7 +8,10 @@ module.exports = {
         '164' : '40rem'
         
       },
-  
+      colors:{
+        'new-bg' :'#19222D'
+      }
+
       
     },
   },

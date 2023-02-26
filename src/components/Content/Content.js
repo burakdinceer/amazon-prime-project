@@ -18,7 +18,7 @@ const Content = () => {
       <div className='flex items-center container mx-auto'>
       <h2 className=" text-white mr-6 p-2 text-sm lg:text-xl">Amazon Orijinal ve Özel İçerikler
      </h2>
-     <Link to='movielist' className='text-blue-500'>Daha Fazlasını Görüntüle</Link>
+     <Link to='/movielist' className='text-blue-500'>Daha Fazlasını Görüntüle</Link>
       </div>
       <OwlCarousel
       className='owl-theme'

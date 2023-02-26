@@ -1,5 +1,5 @@
 import React from 'react'
-import VideoText from './VideosText'
+
 
 const Video = () => {
   return (
